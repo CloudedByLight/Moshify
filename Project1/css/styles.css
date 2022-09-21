@@ -348,6 +348,20 @@ a {
   margin-bottom: 2rem;
 }
 
+.plan--popular .card__header {
+  position: relative; /*needed for popular badge to be absolute */
+}
+
+.plan--popular .card__header::before {
+  /* added content before the content of the card header of plan popular: */
+  content: url(/Project1/icons/popular.svg);
+  width: 40px;
+  display: inline-block;
+  position: absolute; /* relative to its container, here, card__header */
+  top: -6px;
+  right: 5%;
+}
+
 @media screen and (min-width: 1024px) {
   .plan__name {
     font-size: 1.4rem;
