@@ -368,7 +368,7 @@ a {
 
 .plan--popular .card__header::before {
   /* added content before the content of the card header of plan popular: */
-  content: url(/Project1/icons/popular.svg);
+  content: url(/icons/popular.svg);
   width: 40px;
   display: inline-block;
   position: absolute; /* relative to its container, here, card__header */
