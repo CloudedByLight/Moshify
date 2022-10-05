@@ -9,12 +9,6 @@
   --border-radius: 30px;
 }
 
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-
 /* Typography */
 
 ::selection {
@@ -679,7 +673,7 @@ a {
 }
 
 .nav__list {
-  width: 100%;
+  width: 100%; /* bumps list to new line since wrap is enabled */
   margin: 0%;
 }
 
