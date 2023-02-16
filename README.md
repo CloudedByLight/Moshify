@@ -7,4 +7,5 @@ Tech Stack: HTML CSS JS
 # Credits
 
 All rights reserved to https://www.moshified.com/
+
 Thanks again, Mr. Mosh :)
